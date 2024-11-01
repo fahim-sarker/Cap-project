@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.submenu {
+  width: 0;
+  height: auto;
+  overflow: hidden;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.submenu-open {
+  width: 100%;
+  opacity: 1;
+}
+
+.transition-transform {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fade-in {
+    animation: fadeIn 3s ease-in-out forwards;
+    -webkit-animation: fadeIn 3s ease-in-out forwards;
+}
+  
+  .zoom-in {
+    animation: zoomIn 3s ease-in-out forwards;
+    -webkit-animation: zoomIn 3s ease-in-out forwards;
+}
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  
+  
