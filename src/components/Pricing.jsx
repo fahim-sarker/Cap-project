@@ -35,7 +35,7 @@ const Pricing = () => {
                         <li className="flex lg:gap-x-5 gap-x-1 items-center font-sans lg:text-[18px] font-semibold text-[14px] py-2"><IoCheckmarkCircleSharp className="font-sans text-[20px] text-red-400 group-hover:text-white" />Online Support</li>
                         <li className="flex lg:gap-x-5 gap-x-1 items-center font-sans lg:text-[18px] font-semibold text-[14px] py-2"><IoCheckmarkCircleSharp className="font-sans text-[20px] text-red-400 group-hover:text-white" />Unlimited Updates</li>
                     </ul>
-                    <button className="border-2 border-gray-400 group-hover:border-white w-full py-3 rounded-full font-sans text-[18px] group-hover:text-white">Choose Plan</button>
+                    <button className="border-2 border-gray-400 group-hover:border-white w-full py-3 rounded-full font-sans text-[18px] group-hover:text-white lg:mt-0 mt-4">Choose Plan</button>
                 </div>
                 <div className="lg:w-1/3 w-full bg-[#F4F4FF] py-16 px-10 mt-5 rounded-2xl group hover:bg-red-400 duration-700 ease-in-out">
                     <div className="flex justify-between border-b-2 border-b-gray-200 group-hover:text-white">
@@ -55,7 +55,7 @@ const Pricing = () => {
                         <li className="flex lg:gap-x-5 gap-x-1 items-center font-sans lg:text-[18px] font-semibold text-[14px] py-2"><IoCheckmarkCircleSharp className="font-sans text-[20px] text-red-400 group-hover:text-white" />Online Support</li>
                         <li className="flex lg:gap-x-5 gap-x-1 items-center font-sans lg:text-[18px] font-semibold text-[14px] py-2"><IoCheckmarkCircleSharp className="font-sans text-[20px] text-red-400 group-hover:text-white" />Unlimited Updates</li>
                     </ul>
-                    <button className="border-2 border-gray-400 group-hover:border-white w-full py-3 rounded-full font-sans text-[18px] group-hover:text-white">Choose Plan</button>
+                    <button className="border-2 border-gray-400 group-hover:border-white w-full py-3 rounded-full font-sans text-[18px] group-hover:text-white lg:mt-0 mt-4">Choose Plan</button>
                 </div>
                 <div className="lg:w-1/3 w-full bg-[#F4F4FF] py-16 px-10 mt-5 rounded-2xl group hover:bg-red-400 duration-700 ease-in-out">
                     <div className="flex justify-between border-b-2 border-b-gray-200 group-hover:text-white">
@@ -75,7 +75,7 @@ const Pricing = () => {
                         <li className="flex lg:gap-x-5 gap-x-1 items-center font-sans lg:text-[18px] font-semibold text-[14px] py-2"><IoCheckmarkCircleSharp className="font-sans text-[20px] text-red-400 group-hover:text-white" />Online Support</li>
                         <li className="flex lg:gap-x-5 gap-x-1 items-center font-sans lg:text-[18px] font-semibold text-[14px] py-2"><IoCheckmarkCircleSharp className="font-sans text-[20px] text-red-400 group-hover:text-white" />Unlimited Updates</li>
                     </ul>
-                    <button className="border-2 border-gray-400 group-hover:border-white w-full py-3 rounded-full font-sans text-[18px] group-hover:text-white">Choose Plan</button>
+                    <button className="border-2 border-gray-400 group-hover:border-white w-full py-3 rounded-full font-sans text-[18px] group-hover:text-white lg:mt-0 mt-4">Choose Plan</button>
                 </div>
             </div>
       </div>

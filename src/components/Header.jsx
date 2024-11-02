@@ -13,7 +13,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const Header = () => {
   return (
     <div id="header" className="bg-[#0A0507]">
-      <div className="container mx-auto bg-[#3661FC] py-2 px-2 rounded-r-full">
+      <div className="container mx-auto bg-[#3661FC] py-4 px-2 rounded-r-full">
         <div className="flex justify-between items-center">
           <div className="w-3/5">
             <div className="lg:flex gap-x-10 items-center">

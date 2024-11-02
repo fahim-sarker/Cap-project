@@ -12,6 +12,8 @@ export default {
       backgroundImage: {
         'background': "url('/src/assets/Shape.png')",
         'background2': "url('/src/assets/chose.png')",
+        'Footer': "url('/src/assets/footer1.png')",
+        'about': "url('/src/assets/ban.png')",
       }
     },
   },

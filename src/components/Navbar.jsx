@@ -5,6 +5,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoBagOutline } from "react-icons/io5";
 import { FaLongArrowAltRight, FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,6 +17,16 @@ const Navbar = () => {
   const closeMenu = () => {
     setMenuOpen(false);
   };
+
+  let navItems = [
+    { name: "home", path: "/" },
+    { name: "about", path: "/about" },
+    { name: "service", path: "/services" },
+    { name: "pages", path: "/pages" },
+    { name: "team", path: "/team" },
+    { name: "news", path: "/news" },
+    { name: "contact", path: "/contact" },
+  ];
 
   return (
     <div className="bg-[#000000] opacity-80">
@@ -29,18 +40,19 @@ const Navbar = () => {
               <li className="text-white flex justify-between items-center">
                 Menu <RxCross2 className="mr-[20px]" />
               </li>
-              {["home", "about", "service", "pages", "team", "news", "contact"].map((item) => (
-                <li
-                  key={item}
-                  onClick={closeMenu}
-                  className="relative group flex items-center text-[#000] font-sans capitalize font-medium hover:text-red-400 duration-300 ease-in-out"
-                >
-                  {item}
-                  {["service", "pages", "team", "news"].includes(item) && (
-                    <IoIosArrowDown className="ml-1" />
-                  )}
-                  <div className="absolute left-0 -bottom-[30px] w-full h-[3px] bg-red-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
-                </li>
+              {navItems.map(({ name, path }) => (
+                <Link to={path} key={name}>
+                  <li
+                    onClick={closeMenu}
+                    className="relative group flex items-center text-[#000] font-sans capitalize font-medium hover:text-red-400 duration-300 ease-in-out"
+                  >
+                    {name}
+                    {["service", "pages", "team", "news"].includes(name) && (
+                      <IoIosArrowDown className="ml-1" />
+                    )}
+                    <div className="absolute left-0 -bottom-[40px] w-full h-[3px] bg-red-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+                  </li>
+                </Link>
               ))}
             </ul>
           </div>
@@ -65,15 +77,20 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`bg-black lg:hidden flex flex-col items-center py-5 h-auto transition-all duration-300 ease-in-out ${
+          className={`bg-black lg:hidden flex flex-col items-center  h-auto transition-all duration-300 ease-in-out ${
             menuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0 overflow-hidden"
           }`}
         >
-          <ul className="flex flex-col gap-y-2 cursor-pointer">
-            {["home", "about", "service", "pages", "team", "news", "contact"].map((item) => (
-              <li key={item} onClick={closeMenu} className="text-[#fff] font-sans capitalize font-medium hover:text-red-300 duration-300 ease-in-out">
-                {item}
-              </li>
+          <ul className="flex flex-col gap-y-3 my-5 cursor-pointer">
+            {navItems.map(({ name, path }) => (
+              <Link to={path} key={name}>
+                <li
+                  onClick={closeMenu}
+                  className="text-[#fff] font-sans capitalize font-medium hover:text-red-300 duration-300 ease-in-out"
+                >
+                  {name}
+                </li>
+              </Link>
             ))}
           </ul>
         </div>

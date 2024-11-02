@@ -7,9 +7,10 @@ import Abot4 from "../assets/aboutlogo3.png";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
 import { TbTargetArrow } from "react-icons/tb";
 
-const About = () => {
+const About = ({children}) => {
   return (
     <div className="lg:py-28 py-5 lg:px-0 px-2">
+      {children}
       <div className="container mx-auto">
         <div className="lg:flex justify-between">
           <div className="lg:w-1/2">
@@ -58,7 +59,7 @@ const About = () => {
           </div>
         </div>
         <div className="lg:mt-40 mt-5 lg:lg:flex justify-between px-2 lg:px-0">
-          <div className="lg:w-1/4 w-full hover:bg-red-300 py-3 px-3 duration-700 ease-in-out rounded-md group">
+          <div className="lg:w-1/4 w-full hover:bg-red-300 py-3 px-3 duration-700 ease-in-out rounded-md group hover:scale-105">
             <div className="py-16 px-3 bg-[#F4F4FF] rounded-lg shadow-2xl">
               <div className="h-[100px] w-[100px] bg-blue-600 group-hover:bg-red-400 duration-700 ease-in-out rounded-full mx-auto flex justify-center items-center">
                 <img src={Abot1} alt="" />
@@ -72,7 +73,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="lg:w-1/4 w-full hover:bg-red-300 py-3 px-3 duration-700 ease-in-out rounded-md group">
+          <div className="lg:w-1/4 w-full hover:bg-red-300 py-3 px-3 duration-700 ease-in-out rounded-md group hover:scale-105">
             <div className="py-16 px-3 bg-[#F4F4FF] rounded-lg shadow-2xl">
               <div className="h-[100px] w-[100px] bg-blue-600 group-hover:bg-red-400 duration-700 ease-in-out rounded-full mx-auto flex justify-center items-center">
                 <img src={Abot2} alt="" />
@@ -86,7 +87,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="lg:w-1/4 w-full hover:bg-red-300 py-3 px-3 duration-700 ease-in-out rounded-md group">
+          <div className="lg:w-1/4 w-full hover:bg-red-300 py-3 px-3 duration-700 ease-in-out rounded-md group hover:scale-105">
             <div className="py-16 px-3 bg-[#F4F4FF] rounded-lg shadow-2xl">
               <div className="h-[100px] w-[100px] bg-blue-600 group-hover:bg-red-400 duration-700 ease-in-out rounded-full mx-auto flex justify-center items-center">
                 <img src={Abot3} alt="" />
@@ -100,7 +101,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="lg:w-1/4 w-full hover:bg-red-300 py-3 px-3 duration-700 ease-in-out rounded-md group">
+          <div className="lg:w-1/4 w-full hover:bg-red-300 py-3 px-3 duration-700 ease-in-out rounded-md group hover:scale-105">
             <div className="py-16 px-3 bg-[#F4F4FF] rounded-lg shadow-2xl">
               <div className="h-[100px] w-[100px] bg-blue-600 group-hover:bg-red-400 duration-700 ease-in-out rounded-full mx-auto flex justify-center items-center">
                 <img src={Abot4} alt="" />
@@ -116,6 +117,7 @@ const About = () => {
           </div>
         </div>
       </div>
+  
     </div>
   );
 };

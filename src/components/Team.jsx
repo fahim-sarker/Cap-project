@@ -6,7 +6,7 @@ import Tm1 from "../assets/team1.png";
 
 const Team = () => {
   return (
-    <div className="lg:py-28 lg:px-0 px-2 bg-[#F4F4FF]">
+    <div className="lg:py-28 py-3 lg:px-0 px-2 bg-[#F4F4FF]">
       <div className="container mx-auto">
         <h3 className="text-blue-500 font-sans lg:text-[20px] text-[16px] font-medium justify-center flex gap-x-3 items-center">
           <TbTargetArrow className="font-sans lg:text-[25px] text-[18px] text-red-400" />

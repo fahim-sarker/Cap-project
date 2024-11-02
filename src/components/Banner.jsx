@@ -4,7 +4,7 @@ import Banr from "../assets/ban1.png";
 
 const Banner = () => {
   return (
-    <div className='bg-[#000000] opacity-80 lg:py-20 py-3 px-2 lg:px-0'>
+    <div className='bg-Footer lg:py-20 py-3 px-2 lg:px-0'>
       <div className="container mx-auto">
         <div className="lg:flex justify-between">
           <div className="lg:w-1/2 lg:pt-10 fade-in">

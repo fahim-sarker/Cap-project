@@ -1,27 +1,28 @@
-import About from "./components/About"
-import Banner from "./components/Banner"
-import Chose from "./components/Chose"
-import Header from "./components/Header"
-import Navbar from "./components/Navbar"
-import Pricing from "./components/Pricing"
-import Projects from "./components/Projects"
-import Team from "./components/Team"
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+import Rootlayout from "./components/Rootlayout";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
 
+let router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route element={<Rootlayout />}>
+      <Route index element={<Home />}></Route>
+      <Route path='/about' element={<About/>}></Route>
+    </Route>
+  )
+);
 
 function App() {
-
   return (
-   <>
-      <Header/>
-      <Navbar/>
-      <Banner/>
-      <About/>
-      <Chose/>
-      <Pricing/>
-      <Projects/>
-      <Team/>
-   </>
-  )
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
-export default App
+export default App;
