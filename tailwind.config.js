@@ -14,6 +14,8 @@ export default {
         'background2': "url('/src/assets/chose.png')",
         'Footer': "url('/src/assets/footer1.png')",
         'about': "url('/src/assets/ban.png')",
+        'success': "url('/src/assets/success1.png')",
+        'services': "url('/src/assets/servi.png')",
       }
     },
   },

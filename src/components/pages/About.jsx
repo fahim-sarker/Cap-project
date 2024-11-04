@@ -18,10 +18,10 @@ const About = () => {
       <div className="bg-Footer lg:py-28 py-3  px-2 lg:px-0 bg-no-repeat bg-center bg-cover">
         <div className="container mx-auto">
           <h2 className="lg:text-[45px] text-[20px] text-center font-sans text-white font-semibold">
-            About Us
+            About us
           </h2>
           <h3 className="lg:text-[20px] text-[16px] text-center font-sans text-white font-semibold">
-            <Link to="/">Home</Link>
+            <Link to="/">Home </Link>
             <span className="lg:text-[20px] text-[16px] text-center font-sans text-red-300 font-semibold">
               - About us
             </span>
@@ -97,7 +97,7 @@ const About = () => {
       <div className="lg:py-28 py-3 lg:px-0 px-2">
         <div className="container mx-auto">
           <div className="lg:flex justify-between">
-            <div className="lg:w-1/5 w-full lg: my-0 my-2 bg-[#F4F4FF] px-2 py-3 rounded-xl">
+            <div className="lg:w-1/5 w-full lg:my-0 my-2 bg-[#F4F4FF] px-2 py-3 rounded-xl">
               <div className="flex gap-x-8 items-center justify-center">
                 <div className="bg-blue-600 h-[70px] w-[70px] rounded-full flex items-center justify-center ">
                   <img src={Pric1} alt="" className="" />
@@ -112,7 +112,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/5 w-full lg: my-0 my-2 bg-[#F4F4FF] px-2 py-3 rounded-xl">
+            <div className="lg:w-1/5 w-full lg:my-0 my-2 bg-[#F4F4FF] px-2 py-3 rounded-xl">
               <div className="flex gap-x-8 items-center justify-center">
                 <div className="bg-blue-600 h-[70px] w-[70px] rounded-full flex items-center justify-center ">
                   <img src={Pric2} alt="" className="" />
@@ -127,7 +127,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/5 w-full lg: my-0 my-2 bg-[#F4F4FF] px-2 py-3 rounded-xl">
+            <div className="lg:w-1/5 w-full lg:my-0 my-2 bg-[#F4F4FF] px-2 py-3 rounded-xl">
               <div className="flex gap-x-8 items-center justify-center">
                 <div className="bg-blue-600 h-[70px] w-[70px] rounded-full flex items-center justify-center ">
                   <img src={Pric3} alt="" className="" />
@@ -142,7 +142,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/5 w-full lg: my-0 my-2 bg-[#F4F4FF] px-2 py-3 rounded-xl">
+            <div className="lg:w-1/5 w-full lg:my-0 my-2 bg-[#F4F4FF] px-2 py-3 rounded-xl">
               <div className="flex gap-x-8 items-center justify-center">
                 <div className="bg-blue-600 h-[70px] w-[70px] rounded-full flex items-center justify-center ">
                   <img src={Pric1} alt="" className="" />
