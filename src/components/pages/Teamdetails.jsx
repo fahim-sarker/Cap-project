@@ -78,10 +78,10 @@ const Teamdetails = () => {
                   </p>
                 </div>
                 <div className="lg:flex gap-x-10 mt-10">
-                  <h3 className="font-sans text-[25px] font-semibold">
+                  <h3 className="font-sans lg:text-[25px] text-[20px] font-semibold lg:text-start text-center">
                     Follow Me:
                   </h3>
-                  <ul className="flex gap-x-3">
+                  <ul className="flex gap-x-3 ">
                     <li className="bg-[#FFF] h-[50px] w-[50px] rounded-full flex justify-center items-center cursor-pointer hover:bg-blue-500 duration-500 ease-in-out hover:text-white">
                       <FaFacebookF className="text-[22px]" />
                     </li>
@@ -141,7 +141,7 @@ const Teamdetails = () => {
               <div className="bg-gray-400  w-full rounded-md mt-4">
                 <div className="bg-blue-600 w-[65%] py-1 rounded-lg"></div>
               </div>
-              <h4 className="font-sans text-[30px] font-semibold pt-10">
+              <h4 className="font-sans lg:text-[30px] text-[20px] lg:text-start text-cente4 font-semibold pt-10">
                 Career Guidelines
               </h4>
               <p className="font-sans lg:text-[18px] text-[16px] font-normal py-3">
@@ -151,31 +151,31 @@ const Teamdetails = () => {
                 responsibilities might generally include.
               </p>
               <ul className="pl-4">
-                <li className="font-sans lg:text-[18px] text-[16px] py-2 text list-disc">
+                <li className="font-sans lg:text-[18px] text-[14px] py-2 text list-disc">
                   Designing user interfaces and navigation menus
                 </li>
-                <li className="font-sans lg:text-[18px] text-[16px] py-2 text list-disc">
+                <li className="font-sans lg:text-[18px] text-[14px] py-2 text list-disc">
                   Writing and reviewing code for sites, typically HTML, XM
                 </li>
-                <li className="font-sans lg:text-[18px] text-[16px] py-2 text list-disc">
+                <li className="font-sans lg:text-[18px] text-[14px] py-2 text list-disc">
                   Troubleshooting problem with performance or user experience
                 </li>
-                <li className="font-sans lg:text-[18px] text-[16px] py-2 text list-disc">
+                <li className="font-sans lg:text-[18px] text-[14px] py-2 text list-disc">
                   Integrating multimedia content onto a site
                 </li>
-                <li className="font-sans lg:text-[18px] text-[16px] py-2 text list-disc">
+                <li className="font-sans lg:text-[18px] text-[14px] py-2 text list-disc">
                   Collaborating with designers, developers, and stakeholders
                 </li>
-                <li className="font-sans text-[18px] py-2 text list-disc">
+                <li className="font-sans lg:text-[18px] text-[14px] py-2 text list-disc">
                   Testing web applications
                 </li>
               </ul>
             </div>
             <div className="lg:w-2/5 w-full">    
-             <h3 className="font-sans lg:text-[35px] text-[20px] font-semibold">
+             <h3 className="font-sans lg:text-[35px] text-[18px] font-semibold lg:text-start text-center">
                 Personal Experience and Skills
               </h3>
-              <p className="font-sans lg:text-[18px] text-[16px] font-normal py-3 lg:text-start text-center">
+              <p className="font-sans lg:text-[18px] text-[14px] font-normal py-3 lg:text-start text-center">
                 Since joining Sotcox in 2009 .Web design encompasses many
                 different skills and discipli web graphic design; user interface
                 design (UI design); authoring, including standardise
@@ -203,35 +203,14 @@ const Teamdetails = () => {
                 marked{" "}
               </p>
               <form action="" className="lg:mt-10 mt-3">
-                
-                {/* <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="your name"
-                  className="mr-10 lg:w-[250px] w-[300px] lg:pb-0 mb-5 h-12 rounded-full outline-none border-none pl-3 text-[16px] capitalize font-sans"
-                /> */}
-                {/* <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="email address"
-                  className="lg:w-[250px] w-[300px] h-12 rounded-full outline-none border-none pl-3 text-[16px] capitalize font-sans"
-                /> */}
-                {/* <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="business topic"
-                  className="lg:w-[550px] w-[300px] h-12 rounded-full outline-none border-none pl-3 text-[16px] capitalize font-sans mt-5"
-                /> */}
-                {/* <textarea
-                  name=""
-                  placeholder="your message"
-                  id=""
-                  className="lg:w-[550px] w-[320px] h-40 rounded-3xl outline-none border-none pl-3 text-[16px] capitalize font-sans mt-5 py-3"
-                ></textarea> */}
+                <input type="text" placeholder="your name" name="" id="" className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full w-[300px] capitalize font-sans text-[18px] text-black mr-3 lg:mb-0 mb-3"/>
+                <input type="text" placeholder="your email address" name="" id="" className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full w-[300px] capitalize font-sans text-[18px] text-black"/>
+                <input type="text" placeholder="business topic" name="" id="" className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full lg:w-[610px] w-[300px] capitalize font-sans text-[18px] text-black my-4"/>
+                <textarea name="" id="" placeholder="message" className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-lg lg:w-[600px] w-[300px] lg:h-[200px] h-[100px] capitalize font-sans text-[18px] text-black my-4"></textarea>
               </form>
+              <button className="px-10 lg:mt-5 py-4 text-white font-sans text-[16px] bg-red-400 rounded-full">
+                Send Message
+              </button>
             </div>
             <div className="lg:w-2/5 w-full lg:block hidden">
                     <img src={Tm} alt="" className="lg:h-[550px] w-full"/>

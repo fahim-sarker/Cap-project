@@ -22,7 +22,7 @@ const Navbar = () => {
     { name: "home", path: "/" },
     { name: "about", path: "/about" },
     { name: "service", path: "/service" },
-    { name: "pages", path: "/pages" },
+    { name: "portfolio", path: "/portfolio" },
     { name: "team", path: "/team" },
     { name: "news", path: "/news" },
     { name: "contact", path: "/contact" },
@@ -47,7 +47,7 @@ const Navbar = () => {
                     className="relative group flex items-center text-[#000] font-sans capitalize font-medium hover:text-red-400 duration-300 ease-in-out"
                   >
                     {name}
-                    {["service", "pages", "team", "news"].includes(name) && (
+                    {["service", "pages", "team", "news","portfolio"].includes(name) && (
                       <IoIosArrowDown className="ml-1" />
                     )}
                     <div className="absolute left-0 -bottom-[40px] w-full h-[3px] bg-red-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>

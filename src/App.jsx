@@ -9,8 +9,10 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Services from "./components/pages/Service";
 import Teams from "./components/pages/Teams";
-import Servicedetails from "./components/Servicedetails";
+import Servicedetails from "./components/pages/Servicedetails";
 import Teamdetails from "./components/pages/Teamdetails";
+import Portfolio from "./components/pages/Portfolio";
+import Portfoliodetails from "./components/pages/Portfoliodetails";
 
 
 let router = createBrowserRouter(
@@ -22,6 +24,8 @@ let router = createBrowserRouter(
       <Route path='/team' element={<Teams/>}></Route>
       <Route path='/servicedetails' element={<Servicedetails/>}></Route>
       <Route path='/teamdetails' element={<Teamdetails/>}></Route>
+      <Route path='/portfolio' element={<Portfolio/>}></Route>
+      <Route path='/portfoliodetails' element={<Portfoliodetails/>}></Route>
     </Route>
   )
 );

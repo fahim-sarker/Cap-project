@@ -15,7 +15,9 @@ export default {
         'Footer': "url('/src/assets/footer1.png')",
         'about': "url('/src/assets/ban.png')",
         'success': "url('/src/assets/success1.png')",
-        'services': "url('/src/assets/servi.png')",
+        'port1': "url('/src/assets/port.png')",
+        'port2': "url('/src/assets/port2.png')",
+        'port3': "url('/src/assets/port3.png')",
       }
     },
   },

@@ -1,9 +1,9 @@
 import React from "react";
-import Ban from "../assets/ban1.png";
+import Ban from "../../assets/ban1.png";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
-import Ser from "../assets/servi.png";
-import Pric1 from "../assets/price.png";
+import Ser from "../../assets/servi.png";
+import Pric1 from "../../assets/price.png";
 import { IoMdCheckmarkCircle } from "react-icons/io";
 
 const Servicedetails = () => {
