@@ -17,8 +17,8 @@ const Service = () => {
   var settings = {
     dots: true,
     infinite: true,
-    autoplay : true,
-    Autoplayspeed : 500,
+    autoplay: true,
+    Autoplayspeed: 500,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -28,7 +28,7 @@ const Service = () => {
       <div className="bg-Footer lg:py-28 py-3  px-2 lg:px-0 bg-no-repeat bg-center bg-cover">
         <div className="container mx-auto">
           <h2 className="lg:text-[45px] text-[20px] text-center font-sans text-white font-semibold">
-           Service
+            Service
           </h2>
           <h3 className="lg:text-[20px] text-[16px] text-center font-sans text-white font-semibold">
             <Link to="/">Home </Link>
@@ -82,7 +82,7 @@ const Service = () => {
             </div>
             <div className="lg:w-[20%] w-full flex justify-center">
               <button className="px-10 lg:mt-5 py-3 text-black group-hover:text-white font-sans text-[18px] border-2 border-red-400 group-hover:bg-orange-400 rounded-full duration-500 ease-in-out lg:my-0 my-3">
-              <Link to="/servicedetails">Read More</Link>
+                <Link to="/servicedetails">Read More</Link>
               </button>
             </div>
           </div>
@@ -101,7 +101,7 @@ const Service = () => {
             </div>
             <div className="lg:w-[20%] w-full flex justify-center">
               <button className="px-10 lg:mt-5 py-3 text-black group-hover:text-white font-sans text-[18px] border-2 border-red-400 group-hover:bg-orange-400 rounded-full duration-500 ease-in-out lg:my-0 my-3">
-              <Link to="/servicedetails">Read More</Link>
+                <Link to="/servicedetails">Read More</Link>
               </button>
             </div>
           </div>
@@ -120,7 +120,7 @@ const Service = () => {
             </div>
             <div className="lg:w-[20%] w-full flex justify-center">
               <button className="px-10 lg:mt-5 py-3 text-black group-hover:text-white font-sans text-[18px] lg:border-2 borderlg:-red-400 group-hover:bg-orange-400 rounded-full duration-500 ease-in-out lg:my-0 my-3">
-              <Link to="/servicedetails">Read More</Link>
+                <Link to="/servicedetails">Read More</Link>
               </button>
             </div>
           </div>
@@ -235,129 +235,193 @@ const Service = () => {
         </div>
       </div>
       <div className="container mx-auto lg:py-28 py-3 lg:block hidden">
-      <h3 className="text-blue-500 font-sans lg:text-[20px] text-[16px] font-medium flex gap-x-3 items-center justify-center">
-        <TbTargetArrow className="font-sans lg:text-[25px] text-[18px] text-red-400" />
-        Testimonial
-      </h3>
-      <h2 className="text-black lg:text-[60px] text-[16px] font-bold font-sans text-center">
-        What Our Client Say
-      </h2>
-      <Slider {...settings}>
-        <div className="">
-          <div className="flex justify-between mt-10 items-center">
-            <div className="w-[50%]">
-              <img src={Test} alt="Testimonial" className="rounded-lg" />
-            </div>
-            <div className="w-[45%] mt-5">
-              <div className="flex justify-between">
-                <img src={Testi} alt="Client" />
-                <ul className="bg-[#F4F4F4] px-3 py-2 rounded-full flex items-center gap-x-5">
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                </ul>
+        <h3 className="text-blue-500 font-sans lg:text-[20px] text-[16px] font-medium flex gap-x-3 items-center justify-center">
+          <TbTargetArrow className="font-sans lg:text-[25px] text-[18px] text-red-400" />
+          Testimonial
+        </h3>
+        <h2 className="text-black lg:text-[60px] text-[16px] font-bold font-sans text-center">
+          What Our Client Say
+        </h2>
+        <Slider {...settings}>
+          <div className="">
+            <div className="flex justify-between mt-10 items-center">
+              <div className="w-[50%]">
+                <img src={Test} alt="Testimonial" className="rounded-lg" />
               </div>
-              <p className="font-sans text-[20px] font-normal py-10">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form by injected
-                humour, or randomised words which don't look even slightly believable.
-                If you are going to use a passage of Lorem Ipsum, you need to be sure
-                there isn't anything embarrassing.
-              </p>
-              <h2 className="font-sans text-[20px] font-semibold pb-1">Kristin Waon</h2>
-              <h3 className="font-sans text-[18px]">Web Designer</h3>
+              <div className="w-[45%] mt-5">
+                <div className="flex justify-between">
+                  <img src={Testi} alt="Client" />
+                  <ul className="bg-[#F4F4F4] px-3 py-2 rounded-full flex items-center gap-x-5">
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                  </ul>
+                </div>
+                <p className="font-sans text-[20px] font-normal py-10">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure there isn't anything
+                  embarrassing.
+                </p>
+                <h2 className="font-sans text-[20px] font-semibold pb-1">
+                  Kristin Waon
+                </h2>
+                <h3 className="font-sans text-[18px]">Web Designer</h3>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="">
-          <div className="flex justify-between mt-10 items-center">
-            <div className="w-[50%]">
-              <img src={Test1} alt="Testimonial" className="rounded-lg w-full h-[500px]" />
-            </div>
-            <div className="w-[45%] mt-5">
-              <div className="flex justify-between">
-                <img src={Testi} alt="Client" />
-                <ul className="bg-[#F4F4F4] px-3 py-2 rounded-full flex items-center gap-x-5">
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                </ul>
+          <div className="">
+            <div className="flex justify-between mt-10 items-center">
+              <div className="w-[50%]">
+                <img
+                  src={Test1}
+                  alt="Testimonial"
+                  className="rounded-lg w-full h-[500px]"
+                />
               </div>
-              <p className="font-sans text-[20px] font-normal py-10">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form by injected
-                humour, or randomised words which don't look even slightly believable.
-                If you are going to use a passage of Lorem Ipsum, you need to be sure
-                there isn't anything embarrassing.
-              </p>
-              <h2 className="font-sans text-[20px] font-semibold pb-1">Kristin Hanby</h2>
-              <h3 className="font-sans text-[18px]">Digital Marketer</h3>
+              <div className="w-[45%] mt-5">
+                <div className="flex justify-between">
+                  <img src={Testi} alt="Client" />
+                  <ul className="bg-[#F4F4F4] px-3 py-2 rounded-full flex items-center gap-x-5">
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                  </ul>
+                </div>
+                <p className="font-sans text-[20px] font-normal py-10">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure there isn't anything
+                  embarrassing.
+                </p>
+                <h2 className="font-sans text-[20px] font-semibold pb-1">
+                  Kristin Hanby
+                </h2>
+                <h3 className="font-sans text-[18px]">Digital Marketer</h3>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="">
-          <div className="flex justify-between mt-10 items-center">
-            <div className="w-[50%]">
-              <img src={Test} alt="Testimonial" className="rounded-lg w-full h-[500px]" />
-            </div>
-            <div className="w-[45%] mt-5">
-              <div className="flex justify-between">
-                <img src={Testi} alt="Client" />
-                <ul className="bg-[#F4F4F4] px-3 py-2 rounded-full flex items-center gap-x-5">
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                </ul>
+          <div className="">
+            <div className="flex justify-between mt-10 items-center">
+              <div className="w-[50%]">
+                <img
+                  src={Test}
+                  alt="Testimonial"
+                  className="rounded-lg w-full h-[500px]"
+                />
               </div>
-              <p className="font-sans text-[20px] font-normal py-10">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form by injected
-                humour, or randomised words which don't look even slightly believable.
-                If you are going to use a passage of Lorem Ipsum, you need to be sure
-                there isn't anything embarrassing.
-              </p>
-              <h2 className="font-sans text-[20px] font-semibold pb-1">Kristin Hanby</h2>
-              <h3 className="font-sans text-[18px]">Digital Marketer</h3>
+              <div className="w-[45%] mt-5">
+                <div className="flex justify-between">
+                  <img src={Testi} alt="Client" />
+                  <ul className="bg-[#F4F4F4] px-3 py-2 rounded-full flex items-center gap-x-5">
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                  </ul>
+                </div>
+                <p className="font-sans text-[20px] font-normal py-10">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure there isn't anything
+                  embarrassing.
+                </p>
+                <h2 className="font-sans text-[20px] font-semibold pb-1">
+                  Kristin Hanby
+                </h2>
+                <h3 className="font-sans text-[18px]">Digital Marketer</h3>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="">
-          <div className="flex justify-between mt-10 items-center">
-            <div className="w-[50%]">
-              <img src={Test1} alt="Testimonial" className="rounded-lg w-full h-[500px]" />
-            </div>
-            <div className="w-[45%] mt-5">
-              <div className="flex justify-between">
-                <img src={Testi} alt="Client" />
-                <ul className="bg-[#F4F4F4] px-3 py-2 rounded-full flex items-center gap-x-5">
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                  <li className="text-orange-500 text-[25px]"><FaStar /></li>
-                </ul>
+          <div className="">
+            <div className="flex justify-between mt-10 items-center">
+              <div className="w-[50%]">
+                <img
+                  src={Test1}
+                  alt="Testimonial"
+                  className="rounded-lg w-full h-[500px]"
+                />
               </div>
-              <p className="font-sans text-[20px] font-normal py-10">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form by injected
-                humour, or randomised words which don't look even slightly believable.
-                If you are going to use a passage of Lorem Ipsum, you need to be sure
-                there isn't anything embarrassing.
-              </p>
-              <h2 className="font-sans text-[20px] font-semibold pb-1">Kristin Hanby</h2>
-              <h3 className="font-sans text-[18px]">Digital Marketer</h3>
+              <div className="w-[45%] mt-5">
+                <div className="flex justify-between">
+                  <img src={Testi} alt="Client" />
+                  <ul className="bg-[#F4F4F4] px-3 py-2 rounded-full flex items-center gap-x-5">
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                    <li className="text-orange-500 text-[25px]">
+                      <FaStar />
+                    </li>
+                  </ul>
+                </div>
+                <p className="font-sans text-[20px] font-normal py-10">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure there isn't anything
+                  embarrassing.
+                </p>
+                <h2 className="font-sans text-[20px] font-semibold pb-1">
+                  Kristin Hanby
+                </h2>
+                <h3 className="font-sans text-[18px]">Digital Marketer</h3>
+              </div>
             </div>
           </div>
-        </div>
-      </Slider>
-    </div>
+        </Slider>
+      </div>
     </>
   );
 };

@@ -21,7 +21,7 @@ const Teams = () => {
         </div>
       </div>
       <div className="">
-          <Team />
+        <Team />
       </div>
     </>
   );

@@ -171,8 +171,8 @@ const Teamdetails = () => {
                 </li>
               </ul>
             </div>
-            <div className="lg:w-2/5 w-full">    
-             <h3 className="font-sans lg:text-[35px] text-[18px] font-semibold lg:text-start text-center">
+            <div className="lg:w-2/5 w-full">
+              <h3 className="font-sans lg:text-[35px] text-[18px] font-semibold lg:text-start text-center">
                 Personal Experience and Skills
               </h3>
               <p className="font-sans lg:text-[18px] text-[14px] font-normal py-3 lg:text-start text-center">
@@ -186,7 +186,11 @@ const Teamdetails = () => {
                 partiy overlaps web engineering in the broader scope of web
                 development.
               </p>
-              <img src={Exp} alt="" className="lg:pt-20 pt-5 lg:h-[500px] h-[300px]" />
+              <img
+                src={Exp}
+                alt=""
+                className="lg:pt-20 pt-5 lg:h-[500px] h-[300px]"
+              />
             </div>
           </div>
         </div>
@@ -203,17 +207,40 @@ const Teamdetails = () => {
                 marked{" "}
               </p>
               <form action="" className="lg:mt-10 mt-3">
-                <input type="text" placeholder="your name" name="" id="" className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full w-[300px] capitalize font-sans text-[18px] text-black mr-3 lg:mb-0 mb-3"/>
-                <input type="text" placeholder="your email address" name="" id="" className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full w-[300px] capitalize font-sans text-[18px] text-black"/>
-                <input type="text" placeholder="business topic" name="" id="" className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full lg:w-[610px] w-[300px] capitalize font-sans text-[18px] text-black my-4"/>
-                <textarea name="" id="" placeholder="message" className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-lg lg:w-[600px] w-[300px] lg:h-[200px] h-[100px] capitalize font-sans text-[18px] text-black my-4"></textarea>
+                <input
+                  type="text"
+                  placeholder="your name"
+                  name=""
+                  id=""
+                  className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full w-[300px] capitalize font-sans text-[18px] text-black mr-3 lg:mb-0 mb-3"
+                />
+                <input
+                  type="text"
+                  placeholder="your email address"
+                  name=""
+                  id=""
+                  className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full w-[300px] capitalize font-sans text-[18px] text-black"
+                />
+                <input
+                  type="text"
+                  placeholder="business topic"
+                  name=""
+                  id=""
+                  className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-r-full lg:w-[610px] w-[300px] capitalize font-sans text-[18px] text-black my-4"
+                />
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="message"
+                  className="bg-[#FFF] px-2 py-4 pl-2 border-none outline-none rounded-lg lg:w-[600px] w-[300px] lg:h-[200px] h-[100px] capitalize font-sans text-[18px] text-black my-4"
+                ></textarea>
               </form>
               <button className="px-10 lg:mt-5 py-4 text-white font-sans text-[16px] bg-red-400 rounded-full">
                 Send Message
               </button>
             </div>
             <div className="lg:w-2/5 w-full lg:block hidden">
-                    <img src={Tm} alt="" className="lg:h-[550px] w-full"/>
+              <img src={Tm} alt="" className="lg:h-[550px] w-full" />
             </div>
           </div>
         </div>

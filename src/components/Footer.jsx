@@ -1,5 +1,5 @@
 import React from "react";
-import Blg from "../assets/blog.png"
+import Blg from "../assets/blog.png";
 import {
   FaFacebookF,
   FaTwitter,
@@ -9,7 +9,6 @@ import {
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
-
 
 const Footer = () => {
   return (
@@ -89,35 +88,45 @@ const Footer = () => {
               Recent Post
             </h2>
             <div className="flex gap-x-5 pt-10 pb-5">
-                <div className="bg-gray-500 py-2 px-2 rounded-xl">
-                    <img src={Blg} alt="" className="w-full h-[70px]"/>
-                </div>
-                <div className="">
-                <h3 className="text-white text-[18px] font-sans py-2">Thoughtful man using
-                laptop pondering </h3>
+              <div className="bg-gray-500 py-2 px-2 rounded-xl">
+                <img src={Blg} alt="" className="w-full h-[70px]" />
+              </div>
+              <div className="">
+                <h3 className="text-white text-[18px] font-sans py-2">
+                  Thoughtful man using laptop pondering{" "}
+                </h3>
                 <p className="font-sans text-[16px] text-white">09 Dec 2022</p>
-                </div>
+              </div>
             </div>
             <div className="flex gap-x-5 pt-3 pb-5">
-                <div className="bg-gray-500 py-2 px-2 rounded-xl">
-                    <img src={Blg} alt="" className="w-full h-[70px]"/>
-                </div>
-                <div className="">
-                <h3 className="text-white text-[18px] font-sans py-2">Young man with a lap
-                top in a business</h3>
+              <div className="bg-gray-500 py-2 px-2 rounded-xl">
+                <img src={Blg} alt="" className="w-full h-[70px]" />
+              </div>
+              <div className="">
+                <h3 className="text-white text-[18px] font-sans py-2">
+                  Young man with a lap top in a business
+                </h3>
                 <p className="font-sans text-[16px] text-white">09 Dec 2022</p>
-                </div>
+              </div>
             </div>
           </div>
           <div className="lg:w-1/5 w-full">
-          <h2 className="text-white lg:text-[30px] text-[20px] font-bold font-sans relative after:absolute after:content-[''] after:-bottom-[10px] after:left-0 after:h-[3px] after:w-[10%] after:bg-red-500 after:hover:w-[55%] after:duration-500 after:ease-in-out after:rounded-xl">
-          Contact Us
+            <h2 className="text-white lg:text-[30px] text-[20px] font-bold font-sans relative after:absolute after:content-[''] after:-bottom-[10px] after:left-0 after:h-[3px] after:w-[10%] after:bg-red-500 after:hover:w-[55%] after:duration-500 after:ease-in-out after:rounded-xl">
+              Contact Us
             </h2>
             <ul className="pt-10 pb-5">
-                <li className="flex gap-x-3 items-center text-white text-[18px] pb-1"><BsFillTelephoneFill/>+(323) 750-1234</li>
-                <li className="flex gap-x-3 items-center text-white text-[18px] py-2"><IoMdMail/>infoyourortencey@gmail.com</li>
-                <li className="flex gap-x-3 items-center text-white text-[18px] py-2"><FaLocationDot/>374 FA Tower, William S Blvd, Melbourne
-                2721, IL, USA</li>
+              <li className="flex gap-x-3 items-center text-white text-[18px] pb-1">
+                <BsFillTelephoneFill />
+                +(323) 750-1234
+              </li>
+              <li className="flex gap-x-3 items-center text-white text-[18px] py-2">
+                <IoMdMail />
+                infoyourortencey@gmail.com
+              </li>
+              <li className="flex gap-x-3 items-center text-white text-[18px] py-2">
+                <FaLocationDot />
+                374 FA Tower, William S Blvd, Melbourne 2721, IL, USA
+              </li>
             </ul>
           </div>
         </div>

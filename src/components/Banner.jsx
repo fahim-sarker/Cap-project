@@ -1,5 +1,6 @@
 import React from 'react';
 import Banr from "../assets/ban1.png";
+import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
@@ -11,7 +12,7 @@ const Banner = () => {
             <h3 className='text-red-300 font-sans text-[16px] font-medium'>Your Trusted Agency</h3>
             <h2 className='text-white lg:text-[60px] text-[20px] font-bold font-sans'>Our Digital Agency With Excellence Services</h2>
             <p className='text-white text-[16px] font-normal font-sans lg:w-[400px] py-5'>The 3 golden rules professional Digital Marketing Agency don’t want you to know about.</p>
-            <button className='px-10 lg:mt-5 py-3 text-white font-sans text-[16px] bg-red-400 rounded-full'>Discover More</button>
+            <button className='px-10 lg:mt-5 py-3 text-white font-sans text-[16px] bg-red-400 rounded-full'><Link to="/service">Discover More</Link></button>
           </div>
           <div className="lg:w-1/2 flex justify-center lg:mt-0 mt-5">
             <div className="lg:w-[550px] lg:h-[550px] w-[250px] h-[250px] rounded-full bg-gray-300 flex items-center justify-center zoom-in">

@@ -40,16 +40,16 @@ let TeamCard = ({ member }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-        <div className="bg-gray-400 py-3 px-2 rounded-lg flex justify-center items-center">
-          <Link to="/teamdetails">
+      <div className="bg-gray-400 py-3 px-2 rounded-lg flex justify-center items-center">
+        <Link to="/teamdetails">
           <img
             src={member.image}
             alt={member.name}
             className="rounded-md w-full lg:h-[300px] h-[200px]"
-            />
-            </Link>
-        </div>
-        <Link to="/teamdetails">
+          />
+        </Link>
+      </div>
+      <Link to="/teamdetails">
         <div className="text-center pt-5">
           {isHovered ? (
             <div className="flex justify-center space-x-5 duration-700 ease-in-out">
@@ -57,21 +57,21 @@ let TeamCard = ({ member }) => {
                 href="#"
                 aria-label="Facebook"
                 className="lg:w-[50px] lg:h-[50px] w-[30px] h-[30px] rounded-full flex justify-center items-center bg-blue-600"
-                >
+              >
                 <FaFacebookF className="text-white lg:text-[25px] text-[20px]" />
               </a>
               <a
                 href="#"
                 aria-label="LinkedIn"
                 className="lg:w-[50px] lg:h-[50px] w-[30px] h-[30px] rounded-full flex justify-center items-center bg-blue-600"
-                >
+              >
                 <FaLinkedinIn className="text-white lg:text-[25px] text-[20px]" />
               </a>
               <a
                 href="#"
                 aria-label="Instagram"
                 className="lg:w-[50px] lg:h-[50px] w-[30px] h-[30px] rounded-full flex justify-center items-center bg-blue-600"
-                >
+              >
                 <FaInstagram className="text-white lg:text-[25px] text-[20px]" />
               </a>
             </div>
@@ -84,7 +84,7 @@ let TeamCard = ({ member }) => {
             </>
           )}
         </div>
-        </Link>
+      </Link>
     </div>
   );
 };

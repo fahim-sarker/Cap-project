@@ -157,49 +157,47 @@ const Servicedetails = () => {
               </ul>
             </div>
             <div className="lg:w-1/3 w-full">
-            <div className="bg-[#000] w-full opacity-80 px-5 py-4 rounded-xl shadow-2xl h-[500px]">
-              <h3 className="text-[25px] font-sans font-medium text-white">
-                Get a free quote
-              </h3>
-              <div className="mt-8">
-                <form action="">
-                  <input
-                    type="text"
-                    placeholder="your name"
-                    className="w-full border-none outline-none px-3 py-3 bg-[#FFF] rounded-full text-[18px] capitalize font-sans"
-                  />
-                  <input
-                    type="text"
-                    placeholder="your email address"
-                    className="w-full border-none outline-none px-3 py-3 bg-[#FFF] rounded-full text-[18px] capitalize font-sans my-3"
-                  />
-                  <textarea
-                    name=""
-                    id=""
-                    placeholder="message"
-                    className="w-full border-none outline-none px-3 py-3 bg-[#FFF] rounded-lg text-[18px] capitalize font-sans my-3 h-[150px]"
-                  ></textarea>
-                </form>
-                <button className="px-10 lg:mt-5 py-4 text-white font-sans text-[18px] bg-red-400 rounded-full  lg:my-0 my-3">
-                  Send Message
-                </button>
-              </div>
-            </div>
-            <div className="w-full bg-[#FFFFFF] px-4 py-4 rounded-xl shadow-2xl h-[250px]  mt-8">
-              <h3 className="text-[25px] font-sans font-medium">
-              Download
-              </h3>
-              <div className="mt-8">
-                <h3 className="lg:text-[25px] font-medium font-sans hover:bg-orange-500 duration-500 ease-in-out px-3 py-2 rounded-full hover:text-white bg-gray-200 text-black cursor-pointer flex gap-x-5 items-center justify-center">
-                Our Brochures 2023
-                  <FaArrowRightLong />
+              <div className="bg-[#000] w-full opacity-80 px-5 py-4 rounded-xl shadow-2xl h-[500px]">
+                <h3 className="text-[25px] font-sans font-medium text-white">
+                  Get a free quote
                 </h3>
-                <h3 className="lg:text-[25px] font-medium font-sans hover:bg-orange-500 duration-500 ease-in-out px-3 py-2 rounded-full hover:text-white bg-gray-200 text-black cursor-pointer flex gap-x-5 items-center justify-center my-5">
-                About Our Company
-                  <FaArrowRightLong />
-                </h3>
+                <div className="mt-8">
+                  <form action="">
+                    <input
+                      type="text"
+                      placeholder="your name"
+                      className="w-full border-none outline-none px-3 py-3 bg-[#FFF] rounded-full text-[18px] capitalize font-sans"
+                    />
+                    <input
+                      type="text"
+                      placeholder="your email address"
+                      className="w-full border-none outline-none px-3 py-3 bg-[#FFF] rounded-full text-[18px] capitalize font-sans my-3"
+                    />
+                    <textarea
+                      name=""
+                      id=""
+                      placeholder="message"
+                      className="w-full border-none outline-none px-3 py-3 bg-[#FFF] rounded-lg text-[18px] capitalize font-sans my-3 h-[150px]"
+                    ></textarea>
+                  </form>
+                  <button className="px-10 lg:mt-5 py-4 text-white font-sans text-[18px] bg-red-400 rounded-full  lg:my-0 my-3">
+                    Send Message
+                  </button>
+                </div>
               </div>
-            </div>
+              <div className="w-full bg-[#FFFFFF] px-4 py-4 rounded-xl shadow-2xl h-[250px]  mt-8">
+                <h3 className="text-[25px] font-sans font-medium">Download</h3>
+                <div className="mt-8">
+                  <h3 className="lg:text-[25px] font-medium font-sans hover:bg-orange-500 duration-500 ease-in-out px-3 py-2 rounded-full hover:text-white bg-gray-200 text-black cursor-pointer flex gap-x-5 items-center justify-center">
+                    Our Brochures 2023
+                    <FaArrowRightLong />
+                  </h3>
+                  <h3 className="lg:text-[25px] font-medium font-sans hover:bg-orange-500 duration-500 ease-in-out px-3 py-2 rounded-full hover:text-white bg-gray-200 text-black cursor-pointer flex gap-x-5 items-center justify-center my-5">
+                    About Our Company
+                    <FaArrowRightLong />
+                  </h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>

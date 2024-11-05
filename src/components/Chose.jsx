@@ -21,7 +21,8 @@ const Chose = () => {
               are going to use.
             </p>
             <div className="flex justify-between items-center mt-10">
-              <h4 className="font-sans font-medium text-[18px]">Software Development
+              <h4 className="font-sans font-medium text-[18px]">
+                Software Development
               </h4>
               <p className="font-sans font-medium text-[18px]">85%</p>
             </div>
@@ -29,7 +30,8 @@ const Chose = () => {
               <div className="bg-blue-600 w-[80%] py-1 rounded-lg"></div>
             </div>
             <div className="flex justify-between items-center mt-10">
-              <h4 className="font-sans font-medium text-[18px]">Web Development
+              <h4 className="font-sans font-medium text-[18px]">
+                Web Development
               </h4>
               <p className="font-sans font-medium text-[18px]">95%</p>
             </div>
@@ -37,8 +39,8 @@ const Chose = () => {
               <div className="bg-blue-600 w-[90%] py-1 rounded-lg"></div>
             </div>
             <div className="flex justify-between items-center mt-10">
-              <h4 className="font-sans font-medium text-[18px]">UL / UX Design
-              80%
+              <h4 className="font-sans font-medium text-[18px]">
+                UL / UX Design 80%
               </h4>
               <p className="font-sans font-medium text-[18px]">75%</p>
             </div>
@@ -47,9 +49,12 @@ const Chose = () => {
             </div>
           </div>
           <div className="lg:w-2/5 w-full flex items-center justify-center bg-gray-400 py-10 rounded-xl mt-20">
-              <div className="w-[500px] h-[400px] rounded-lg bg-background2 relative">
-                <h3 className="absolute bottom-0 lg:left-[30%] left-[20%] font-sans text-[22px] font-medium bg-white py-1 px-3 rounded-2xl"><span className="font-sans text-[40px] text-red-500">25</span>Years Experience</h3>
-              </div>
+            <div className="w-[500px] h-[400px] rounded-lg bg-background2 relative">
+              <h3 className="absolute bottom-0 lg:left-[30%] left-[20%] font-sans text-[22px] font-medium bg-white py-1 px-3 rounded-2xl">
+                <span className="font-sans text-[40px] text-red-500">25</span>
+                Years Experience
+              </h3>
+            </div>
           </div>
         </div>
       </div>

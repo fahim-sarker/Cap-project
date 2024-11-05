@@ -13,6 +13,8 @@ import Servicedetails from "./components/pages/Servicedetails";
 import Teamdetails from "./components/pages/Teamdetails";
 import Portfolio from "./components/pages/Portfolio";
 import Portfoliodetails from "./components/pages/Portfoliodetails";
+import Pricingpage from "./components/pages/Pricingpage";
+import Contact from "./components/pages/Contact";
 
 
 let router = createBrowserRouter(
@@ -26,6 +28,8 @@ let router = createBrowserRouter(
       <Route path='/teamdetails' element={<Teamdetails/>}></Route>
       <Route path='/portfolio' element={<Portfolio/>}></Route>
       <Route path='/portfoliodetails' element={<Portfoliodetails/>}></Route>
+      <Route path='/pricing' element={<Pricingpage/>}></Route>
+      <Route path='/contact' element={<Contact/>}></Route>
     </Route>
   )
 );

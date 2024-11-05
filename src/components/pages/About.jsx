@@ -10,7 +10,7 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 import Pric1 from "../../assets/price.png";
 import Pric2 from "../../assets/price1.png";
 import Pric3 from "../../assets/price2.png";
-import Ban from "../../assets/ban1.png"
+import Ban from "../../assets/ban1.png";
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
               - About us
             </span>
           </h3>
-          <img src={Ban} alt="" className="mx-auto mt-5"/>
+          <img src={Ban} alt="" className="mx-auto mt-5" />
         </div>
       </div>
       <div className="">
@@ -67,7 +67,7 @@ const About = () => {
                 you are going to use.
               </p>
               <div className="lg:flex gap-x-10 items-center">
-                <img src={Map} alt="" className="mx-auto lg:mx-0"/>
+                <img src={Map} alt="" className="mx-auto lg:mx-0" />
                 <ul className="lg:py-0 py-5">
                   <li className="flex gap-x-2 items-center font-sans lg:text-[18px] text-[16px] font-medium">
                     <IoMdCheckmarkCircle className="text-red-400 text-[20px]" />
@@ -133,11 +133,9 @@ const About = () => {
                   <img src={Pric3} alt="" className="" />
                 </div>
                 <div className="">
-                  <h3 className="font-sans text-[40px] font-bold pb-3">
-                    95 +
-                  </h3>
+                  <h3 className="font-sans text-[40px] font-bold pb-3">95 +</h3>
                   <h3 className=" font-sans text-[18px] font-medium">
-                  Professional Team
+                    Professional Team
                   </h3>
                 </div>
               </div>
@@ -152,7 +150,7 @@ const About = () => {
                     120 +
                   </h3>
                   <h3 className=" font-sans text-[18px] font-medium">
-                  Awards Win
+                    Awards Win
                   </h3>
                 </div>
               </div>

@@ -6,6 +6,7 @@ import Abot3 from "../assets/aboutlogo2.png";
 import Abot4 from "../assets/aboutlogo3.png";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
 import { TbTargetArrow } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const About = ({children}) => {
   return (
@@ -54,7 +55,7 @@ const About = ({children}) => {
               </div>
             </div>
             <button className="px-9 lg:mt-10 mt-5 lg:py-4 py-3  text-white font-sans text-[16px] bg-red-400 rounded-full">
-              Read More
+              <Link to="/about">Read More</Link>
             </button>
           </div>
         </div>
