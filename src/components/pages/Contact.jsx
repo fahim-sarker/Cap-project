@@ -138,7 +138,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="bg-[#F4F4FF] py-4 px-5 rounded-xl flex justify-center mt-14">
-                6 6 <img src={Ct} alt="" />
+                <img src={Ct} alt="" />
               </div>
             </div>
           </div>

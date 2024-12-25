@@ -17,8 +17,7 @@ const Blog = () => {
         </h2>
 
         <div className="lg:flex justify-between gap-x-5 mt-3 lg:mt-20">
-          {/* Blog Card 1 */}
-          <div className="lg:w-1/3 w-full bg-white rounded-xl shadow-xl">
+          <div className="lg:w-1/3 w-full bg-white rounded-xl shadow-xl ">
             <Link to="/portfolio">
               <div className="group bg-gray-500 rounded-xl">
                 <img
@@ -26,9 +25,6 @@ const Blog = () => {
                   alt="Blog"
                   className="w-full h-[200px] lg:h-[300px] object-cover rounded-t-xl"
                 />
-                <button className="absolute bottom-5 left-1/2 transform -translate-x-1/2 px-10 py-3 text-white bg-red-400 rounded-r-full opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  Digital Agency
-                </button>
               </div>
               <div className="flex justify-between px-5 py-5">
                 <p className="flex items-center gap-x-2 text-[18px] font-sans">
@@ -46,9 +42,7 @@ const Blog = () => {
               </h3>
             </Link>
           </div>
-
-          {/* Blog Card 2 */}
-          <div className="lg:w-1/3 w-full my-5 lg:my-0 bg-white rounded-xl shadow-xl">
+          <div className="lg:w-1/3 w-full my-5 lg:my-0 bg-white rounded-xl shadow-xl relative">
             <Link to="/portfolio">
               <div className="group bg-gray-500 rounded-xl">
                 <img
@@ -56,9 +50,6 @@ const Blog = () => {
                   alt="Blog"
                   className="w-full h-[200px] lg:h-[300px] object-cover rounded-t-xl"
                 />
-                <button className="absolute bottom-5 left-1/2 transform -translate-x-1/2 px-10 py-3 text-white bg-red-400 rounded-r-full opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  Marketing Agency
-                </button>
               </div>
               <div className="flex justify-between px-5 py-5">
                 <p className="flex items-center gap-x-2 text-[18px] font-sans">
@@ -76,9 +67,7 @@ const Blog = () => {
               </h3>
             </Link>
           </div>
-
-          {/* Blog Card 3 */}
-          <div className="lg:w-1/3 w-full bg-white rounded-xl shadow-xl">
+          <div className="lg:w-1/3 w-full bg-white rounded-xl shadow-xl relative">
             <Link to="/portfolio">
               <div className="group bg-gray-500 rounded-xl">
                 <img
@@ -86,9 +75,6 @@ const Blog = () => {
                   alt="Blog"
                   className="w-full h-[200px] lg:h-[300px] object-cover rounded-t-xl"
                 />
-                <button className="absolute bottom-5 left-1/2 transform -translate-x-1/2 px-10 py-3 text-white bg-red-400 rounded-r-full opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  Digital Connect
-                </button>
               </div>
               <div className="flex justify-between px-5 py-5">
                 <p className="flex items-center gap-x-2 text-[18px] font-sans">
